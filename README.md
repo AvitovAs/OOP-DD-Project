@@ -19,7 +19,7 @@ You play as a brave adventurer trapped in a dungeon filled with enemies and trap
 - **Warrior** – Tanky fighter with healing shield ability.
 - **Mage** – Casts powerful spells using mana.
 - **Rogue** – Fast attacker with energy-based area damage.
-- **Hunter** *(Bonus)* – Long-range attacks using arrows.
+- **Hunter** – Long-range attacks using arrows.
 
 Each class levels up and gains stronger stats and abilities over time.
 
