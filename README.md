@@ -50,7 +50,7 @@ Each class levels up and gains stronger stats and abilities over time.
 
 ## ⚙️ How to Build and Run
 
-## 📝 Creating Levels
+### 📝 Creating Levels
 
 Level files are simple `.txt` files that define the layout of each level board using ASCII characters. Each file represents one level and must be named as follows:
 ### 📌 Tile Legend
