@@ -47,10 +47,3 @@ Each class levels up and gains stronger stats and abilities over time.
 | d   | Move right        |
 | e   | Use special ability |
 | q   | Do nothing        |
-
-## 🗂️ Directory Structure
-
-The game loads levels from a directory of `.txt` files passed as a command-line argument.  
-Example:
-```bash
-java -jar hw3.jar ./levels
