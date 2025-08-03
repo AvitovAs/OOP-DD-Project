@@ -69,5 +69,5 @@ Each level should be a valid rectangular grid, using characters as specified in 
 
 After compiling your project in your IDE or via command line, export it as `hw3.jar` and run as follows:
 
-java -jar hw3.jar ./levels
+```bash java -jar hw3.jar ./levels
 
