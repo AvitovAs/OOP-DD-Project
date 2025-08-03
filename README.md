@@ -67,9 +67,7 @@ Each level should be a valid rectangular grid, using characters as specified in 
 
 ### 🔨 Export as JAR
 
-After compiling your project in your IDE or via command line, export it as `hw3.jar`.
+After compiling your project in your IDE or via command line, export it as `hw3.jar` and run as follows:
 
-You can use the following command to compile and package (example using CLI):
-```bash
-javac -d bin src/*.java
-jar cfe hw3.jar Main -C bin .
+java -jar hw3.jar ./levels
+
