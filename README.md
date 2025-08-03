@@ -39,11 +39,37 @@ Each class levels up and gains stronger stats and abilities over time.
 
 ## ⌨️ Controls
 
-| Key | Action            |
-|-----|-------------------|
-| w   | Move up           |
-| s   | Move down         |
-| a   | Move left         |
-| d   | Move right        |
+| Key | Action              |
+|-----|---------------------|
+| w   | Move up             |
+| s   | Move down           |
+| a   | Move left           |
+| d   | Move right          |
 | e   | Use special ability |
-| q   | Do nothing        |
+| q   | Do nothing          |
+
+## ⚙️ How to Build and Run
+
+## 📝 Creating Levels
+
+Level files are simple `.txt` files that define the layout of each level board using ASCII characters. Each file represents one level and must be named as follows:
+### 📌 Tile Legend
+
+| Character | Meaning                                |
+|-----------|----------------------------------------|
+| `.`       | Free space                             |
+| `#`       | Wall (blocks movement)                 |
+| `@`       | Player starting position               |
+| `X`       | Dead player (display only)             |
+| `s`, `k`, `M`, `z`, ... | Enemy characters (customizable) |
+
+Each level should be a valid rectangular grid, using characters as specified in the game spec. Place enemies and traps using their designated characters, and make sure there is exactly **one `@` symbol** (player start position) per level.
+
+### 🔨 Export as JAR
+
+After compiling your project in your IDE or via command line, export it as `hw3.jar`.
+
+You can use the following command to compile and package (example using CLI):
+```bash
+javac -d bin src/*.java
+jar cfe hw3.jar Main -C bin .
